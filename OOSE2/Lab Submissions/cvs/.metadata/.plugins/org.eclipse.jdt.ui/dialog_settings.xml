@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\44754\Desktop\cvs"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Controller - VehicleControlSystem"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\44754\Desktop\vcs7-final.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\44754\Desktop\vcs7-final.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs6-name-taken-from-class.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs5-bool-action-sw.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs4-buttonGen.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs3-removedlargeifelse.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs2.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs1.jar"/>
+			<item value="C:\Users\44754\Desktop\vcs.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\44754\Desktop\cvs.xml"/>
+			<item value=".xml"/>
+		</list>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+</section>

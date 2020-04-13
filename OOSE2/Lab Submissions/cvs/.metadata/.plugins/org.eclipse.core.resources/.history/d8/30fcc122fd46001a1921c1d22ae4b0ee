@@ -1,0 +1,8 @@
+package vehicle.types;
+
+public class Truck extends MotorVehicle {
+	
+	public Truck(){
+		setNowheels(8);
+	}
+}

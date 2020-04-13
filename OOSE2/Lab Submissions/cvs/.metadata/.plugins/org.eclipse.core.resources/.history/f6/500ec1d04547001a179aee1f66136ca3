@@ -1,0 +1,16 @@
+package oose.vcs;
+
+public enum Vehicles {
+	BOAT ("Boat", "Apollo"),
+	"Ship" "Cruizz"
+	"Truck" "Ford F-650"
+	"Motorcycle" "Suzuki"
+	"Bus" "Aero"
+	"Car" "BMW"
+	"Bicycle" "A-bike"
+	"Helicopter" "Eurocopter"
+	"Airplane" "BA"
+	"Tram" "EdinburghTram"
+	"Train" "Virgin"
+
+}

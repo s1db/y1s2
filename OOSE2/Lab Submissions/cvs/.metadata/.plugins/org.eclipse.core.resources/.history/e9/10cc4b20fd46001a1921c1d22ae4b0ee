@@ -1,0 +1,30 @@
+package vehicle.types;
+
+public abstract class MotorVehicle extends Vehicle{
+	
+	private int nowheels;
+	
+	public MotorVehicle() {
+	}
+
+	public int getNowheels() {
+		return nowheels;
+	}
+
+	public void setNowheels(int nowheels) {
+		this.nowheels = nowheels;
+	}
+			
+	@Override
+	public void drive(double speed) {
+		setStopped(false);
+		setCurrentSpeed(speed);
+		
+	}
+	
+	@Override
+	public String printSpeed() {
+		return getCurrentSpeed()+"miles/hr";
+	}
+
+}

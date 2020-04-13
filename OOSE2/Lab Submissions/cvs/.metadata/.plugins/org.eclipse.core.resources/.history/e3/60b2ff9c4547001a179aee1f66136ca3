@@ -1,0 +1,5 @@
+package oose.vcs;
+
+public enum Vehicles {
+
+}

@@ -1,0 +1,10 @@
+package vehicle.types;
+
+public class Motorcycle extends MotorVehicle {
+	
+	public Motorcycle(){
+		setNowheels(2);
+	}
+
+
+}

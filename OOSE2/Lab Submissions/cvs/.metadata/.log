@@ -1,0 +1,177 @@
+!SESSION 2020-01-20 09:20:05.800 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-20 09:20:56.760
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-01-20 09:38:00.847 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/44754/Desktop/cvs/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-20 09:38:24.474
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.objectaid.uml @ com.objectaid.uml.model.diagram.DiagramFactory.unmarshal(239) 4 0 2020-01-20 09:38:27.156
+!MESSAGE org.eclipse.core.internal.resources.ResourceException: Resource '/VehicleControlSystem/bin/oose/vcs/Design.ucls' does not exist.
+!STACK 0
+com.objectaid.uml.UMLException: org.eclipse.core.internal.resources.ResourceException: Resource '/VehicleControlSystem/bin/oose/vcs/Design.ucls' does not exist.
+	at com.objectaid.uml.model.diagram.DiagramFactory.unmarshal(DiagramFactory.java:239)
+	at com.objectaid.uml.model.DiagramHandle.unmarshalModel(DiagramHandle.java:212)
+	at com.objectaid.uml.model.DiagramHandle.unmarshal(DiagramHandle.java:161)
+	at com.objectaid.uml.model.manage.DiagramManager.add(DiagramManager.java:110)
+	at com.objectaid.uml.model.manage.StartupJob$2.run(StartupJob.java:99)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/VehicleControlSystem/bin/oose/vcs/Design.ucls' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:792)
+	at com.objectaid.uml.model.diagram.DiagramFactory.unmarshal(DiagramFactory.java:237)
+	... 7 more
+Caused by: java.lang.Exception: Resource '/VehicleControlSystem/bin/oose/vcs/Design.ucls' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 11 more
+!SESSION 2020-02-03 01:12:15.968 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-03 01:13:43.023
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-02-03 01:14:24.822 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/44754/Desktop/cvs/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-03 01:14:43.400
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.objectaid.uml @ java.util.ArrayList.rangeCheckForAdd(754) 4 0 2020-02-03 10:25:40.539
+!MESSAGE job com.objectaid.uml.model.manage.ResourceChangeCallable@ed7cf2 failed
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index: 17, Size: 16
+	at java.base/java.util.ArrayList.rangeCheckForAdd(ArrayList.java:754)
+	at java.base/java.util.ArrayList.add(ArrayList.java:479)
+	at com.objectaid.uml.model.impl.ElementList.move(ElementList.java:55)
+	at com.objectaid.uml.model.FeatureList.refresh(FeatureList.java:107)
+	at com.objectaid.uml.java.TypeHandle.setLanguageElement(TypeHandle.java:103)
+	at com.objectaid.uml.model.manage.LanguageElementChangeProcessor.processLanguageElements(LanguageElementChangeProcessor.java:184)
+	at com.objectaid.uml.model.manage.LanguageElementChangeProcessor.resourceChanged(LanguageElementChangeProcessor.java:137)
+	at com.objectaid.uml.model.manage.ResourceChangeCallable.process(ResourceChangeCallable.java:128)
+	at com.objectaid.uml.model.manage.ResourceChangeCallable.visit(ResourceChangeCallable.java:88)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at com.objectaid.uml.model.manage.ResourceChangeVisitor.resourceChanged(ResourceChangeVisitor.java:48)
+	at com.objectaid.uml.model.manage.ResourceChangeCallable.call(ResourceChangeCallable.java:50)
+	at com.objectaid.uml.model.manage.ResourceChangeCallable.call(ResourceChangeCallable.java:27)
+	at com.objectaid.uml.util.CallableJob.run(CallableJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.objectaid.uml 4 0 2020-02-03 10:25:40.544
+!MESSAGE job com.objectaid.uml.model.manage.ResourceChangeCallable@ed7cf2 failed
+!SESSION 2020-02-04 11:31:40.844 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-04 11:32:24.052
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-02-04 11:33:11.540 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-04 11:33:27.992
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-02-04 12:33:15.216
+!MESSAGE Unable to connect to repository http://www.objectaid.com/update/current/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to www.objectaid.com:80 [www.objectaid.com/208.95.104.30] failed: Connection timed out: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:585)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SESSION 2020-02-09 22:14:04.901 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-09 22:14:52.880
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\44754'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

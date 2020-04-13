@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1581327555305" analysisTimestamp="1581327594803" release="">
+  <Project projectName="oosew2">
+    <Jar>C:\Users\44754\Desktop\nunu.jar</Jar>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="customCharReader" signature="(Ljava/io/File;I)V" isStatic="false">
+      <SourceLine classname="oose.w2.Util" start="23" end="40" startBytecode="0" endBytecode="308" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader"/>
+    </Method>
+    <SourceLine classname="oose.w2.Util" start="26" end="26" startBytecode="14" endBytecode="14" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="customCharReader" signature="(Ljava/io/File;I)V" isStatic="false">
+      <SourceLine classname="oose.w2.Util" start="23" end="40" startBytecode="0" endBytecode="48" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <Method classname="java.lang.Integer" name="toString" signature="(I)Ljava/lang/String;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="oose.w2.Util" start="35" end="35" startBytecode="71" endBytecode="71" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM_EXCEPTION_PATH" priority="3" rank="19" abbrev="OS" category="BAD_PRACTICE">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="customCharReader" signature="(Ljava/io/File;I)V" isStatic="false">
+      <SourceLine classname="oose.w2.Util" start="23" end="40" startBytecode="0" endBytecode="48" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader"/>
+    </Type>
+    <SourceLine classname="oose.w2.Util" start="26" end="26" startBytecode="5" endBytecode="5" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="customCharReader" signature="(Ljava/io/File;I)V" isStatic="false">
+      <SourceLine classname="oose.w2.Util" start="23" end="40" startBytecode="0" endBytecode="308" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <SourceLine classname="oose.w2.Util" start="30" end="30" startBytecode="40" endBytecode="40" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="customCharReader" signature="(Ljava/io/File;I)V" isStatic="false">
+      <SourceLine classname="oose.w2.Util" start="23" end="40" startBytecode="0" endBytecode="308" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <Method classname="java.io.BufferedReader" name="read" signature="([CII)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.BufferedReader"/>
+    </Method>
+    <SourceLine classname="oose.w2.Util" start="27" end="27" startBytecode="28" endBytecode="28" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" rank="3" abbrev="RV" category="CORRECTNESS">
+    <Class classname="oose.w2.Util">
+      <SourceLine classname="oose.w2.Util" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Class>
+    <Method classname="oose.w2.Util" name="charReplace" signature="(Ljava/lang/String;CC)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="oose.w2.Util" start="50" end="51" startBytecode="0" endBytecode="74" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="replace" signature="(CC)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="oose.w2.Util" start="50" end="50" startBytecode="3" endBytecode="3" sourcefile="Util.java" sourcepath="oose/w2/Util.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 10 Feb 2020 09:39:15 +0000" total_classes="2" referenced_classes="20" total_bugs="6" total_size="35" num_packages="1" java_version="1.8.0_241" vm_version="25.241-b07" cpu_seconds="12.55" clock_seconds="43387.60" peak_mbytes="56.38" alloc_mbytes="247.50" gc_seconds="0.22" priority_3="1" priority_2="3" priority_1="2">
+    <PackageStats package="oose.w2" total_bugs="6" total_types="2" total_size="35" priority_3="1" priority_2="3" priority_1="2">
+      <ClassStats class="oose.w2.Driver" sourceFile="Driver.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="oose.w2.Util" sourceFile="Util.java" interface="false" size="20" bugs="6" priority_3="1" priority_2="3" priority_1="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="248" invocations="545" avgMicrosecondsPerInvocation="455" maxMicrosecondsPerInvocation="21881" standardDeviationMicrosecondsPerInvocation="1387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="242" invocations="2" avgMicrosecondsPerInvocation="121124" maxMicrosecondsPerInvocation="181475" standardDeviationMicrosecondsPerInvocation="60351"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="219" invocations="546" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="1974" standardDeviationMicrosecondsPerInvocation="255"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="71" invocations="511" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="27921" standardDeviationMicrosecondsPerInvocation="1254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="42" invocations="20" avgMicrosecondsPerInvocation="2122" maxMicrosecondsPerInvocation="14498" standardDeviationMicrosecondsPerInvocation="3540"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="40" invocations="20" avgMicrosecondsPerInvocation="2001" maxMicrosecondsPerInvocation="17151" standardDeviationMicrosecondsPerInvocation="3853"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="37" invocations="5" avgMicrosecondsPerInvocation="7474" maxMicrosecondsPerInvocation="36245" standardDeviationMicrosecondsPerInvocation="14388"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="30" invocations="104" avgMicrosecondsPerInvocation="294" maxMicrosecondsPerInvocation="4246" standardDeviationMicrosecondsPerInvocation="515"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="25" invocations="43" avgMicrosecondsPerInvocation="592" maxMicrosecondsPerInvocation="13538" standardDeviationMicrosecondsPerInvocation="2080"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
